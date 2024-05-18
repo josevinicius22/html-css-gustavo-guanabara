@@ -34,7 +34,8 @@ header>h1 {
 }
 
 header>p {
-    padding-bottom: 50px;  font-size: 3vw;
+    padding-bottom: 50px;
+    font-size: 3vw;
 }
 
 a {
@@ -55,10 +56,10 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    
+
 }
 
-section>p{
+section>p {
     padding-bottom: 2em;
     padding-left: 1vh;
 }
@@ -74,18 +75,21 @@ section.imagem>p {
 
 }
 
-#joaninha{
+#joaninha {
     background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
 
 }
-#livro{
+
+#livro {
     background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 
 }
 
