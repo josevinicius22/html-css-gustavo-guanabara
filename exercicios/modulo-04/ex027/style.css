@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+body{
+
+    min-height: 110vh;
+    background: black url(sources/pexels-pixabay-276517.jpg) no-repeat right center;
+    background-size: cover;
+}
+
+main{
+    background: #1d282e;
+    width: 300px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.245) 2px 2px 2px 2px;
+    border-radius: 10px;
+    color: #DEDEDE;
+}
+main>h1{
+    text-align: center;
+    align-items: center;
+    background-color: red;
+    
+}
+main>p{
+    padding: 10px;
+    background-color: green;
+}
+#idemail{
+    background-color: blue;
+    margin: 10px;
+}
+
+#idpassword{
+    background-color: blue;
+    margin: 10px;
+}
+
+#entrar{
+    background-color: blue;
+    margin: 10px;
+}
+
+#forgot{
+
+    background-color: blue;
+    margin: 10px;
+}
