@@ -9,12 +9,17 @@
 <body>
     <main>
         <h1>Log in</h1>
-        <p>Seja bem vindo. Insira seu e-mail e senha para acessar ao conteudo.</p>
+        <p>Seja bem vindo.<br>Insira seu e-mail e senha para acessar ao conteudo.</p>
         <form action="cadastro.php">
-            E-mail: <input type="email" placeholder="Insira seu e-mail" name="email" id="idemail" required><br>
-            Senha: <input type="password" placeholder="Insira sua senha" name="password" id="idpassword" required><br>
-            <input type="button" id="entrar" value="Entrar"><br>
-            <input type="button" id="forgot" value="Esqueci a senha">
+            <div class="container">
+                E-mail:<br><input type="email" placeholder="Insira seu e-mail" name="email" id="idemail" required><br>
+                Senha:<br><input type="password" placeholder="Insira sua senha" name="password" id="idpassword" required>
+            </div>
+            <br>
+            <div class="button-container">
+                <input type="button" id="entrar" value="Entrar"><br>
+                <input type="button" id="forgot" value="Esqueci a senha">
+            </div>
 
 
 

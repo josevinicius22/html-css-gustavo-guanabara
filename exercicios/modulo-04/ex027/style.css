@@ -25,40 +25,63 @@ body{
 }
 
 main{
-    background: #1d282e;
+    background: #1d282ede;
     width: 300px;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.245) 2px 2px 2px 2px;
+    box-shadow: rgba(223, 11, 11, 0.029) 2px 2px 2px 2px;
     border-radius: 10px;
     color: #DEDEDE;
 }
 main>h1{
     text-align: center;
     align-items: center;
-    background-color: red;
+
     
 }
 main>p{
     padding: 10px;
-    background-color: green;
+    font-size: 1.1rem;
 }
-#idemail{
-    background-color: blue;
-    margin: 10px;
+form{
+    text-align: left;
+    padding-left: 3vh;
+
+    font-size: 1.1rem;
+}
+#idemail,#idpassword{
+    background-color: white;
+    margin-bottom: 1vh;
+    border: none;
+    border-radius: 0.5vh;
+    color: #1d282ede;
+    font-size: 1.1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
-#idpassword{
-    background-color: blue;
-    margin: 10px;
+.container{
+    width: 250px;
+    margin: 0;
 }
 
-#entrar{
-    background-color: blue;
-    margin: 10px;
+.button-container{
+    border: none;
+    border-radius: 0.5vh;
+    color: white;
+    padding: 0.5vh;
+   
+    width: 250px; /* Define uma largura máxima para os botões */
+    text-align: center;
+
 }
-
-#forgot{
-
-    background-color: blue;
-    margin: 10px;
+#entrar,#forgot{
+    cursor: pointer; 
+     margin-bottom: 1vh;
+     font-size: 1.1rem;
+     border: none;
+     border-radius: 0.5vh;
+     background: white;
+     color: #1d282ede;
 }
