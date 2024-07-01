@@ -78,7 +78,7 @@ form{
 }
 #entrar,#forgot{
     cursor: pointer; 
-     margin-bottom: 1vh;
+     margin-bottom: 1.5vh;
      font-size: 1.1rem;
      border: none;
      border-radius: 0.5vh;
